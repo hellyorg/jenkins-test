@@ -1,0 +1,40 @@
+{
+    "appName": "fxcicdtestall721",
+    "projectId": "982027e1-4515-48c3-a7a0-58e2e2c77231",
+    "version": "2.1.0",
+    "isFromSample": false,
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [
+            "function",
+            "sql"
+        ],
+        "capabilities": [
+            "Tab",
+            "TabSSO",
+            "Bot"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-identity",
+            "fx-resource-azure-sql",
+            "fx-resource-bot",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-function",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-cicd",
+            "fx-resource-api-connector"
+        ]
+    },
+    "programmingLanguage": "javascript",
+    "pluginSettings": {
+        "fx-resource-bot": {
+            "host-type": "app-service",
+            "capabilities": []
+        }
+    },
+    "defaultFunctionName": "getUserProfile"
+}
