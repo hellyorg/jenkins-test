@@ -16,6 +16,7 @@ pipeline {
         M365_TENANT_ID = credentials('M365_TENANT_ID')
         // To enable M365 account login by non-interactive mode. 
         CI_ENABLED = 'true'
+        TEAMSFX_V3 = 'true'
         // To specify the environment name which will be used as an option below.
         // You can change it to use your own environment name.
         TEAMSFX_ENV_NAME = 'dev'
